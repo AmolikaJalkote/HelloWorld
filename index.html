@@ -6,16 +6,15 @@
 <body>
 
   <a-scene>
-    <a-box color="gray" position="0.5 0 -2" rotation="0 45 0"></a-box>
+    
     <a-sphere rotation="45 90 60" position="3 -1 0.5" color="red"></a-sphere>
-    <a-sky color="black"></a-sky>
+    <a-sky color="pink"></a-sky>
     <a-assets>
       <img id="cartoon" src="download.jpg"></img>
       </a-assets>
-   <a-entity geometry="primitive: box" material="color: red"
-          light="type: point; intensity: 2.0">
+ 
    <a-plane src="#cartoon" position="0 0.5 -3" rotatin="0 45 60"></a-plane>
-    
+    <a-box color="gray" position="0.5 0 -2" rotation="0 45 0"></a-box>
   </a-scene>
 </body>
 </html>
