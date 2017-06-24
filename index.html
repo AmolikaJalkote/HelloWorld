@@ -7,11 +7,11 @@
 
   <a-scene>
     <a-box color="red" position="1 -1 0.5" rotation="0 45 0"></a-box>
-    <a-sphere rotation="45 90 60" position="3 -1 0.5" color="green"></a-sphere>
+    <a-sphere rotation="45 90 60" position="3 -1 0.5" color="gray"></a-sphere>
     <a-sky color="black"></a-sky>
     
     <a-assets>
-        <a-mixin id="light" geometry="primitive: sphere; radius: 1.5"
+        <a-mixin id="light" geometry="primitive: box; radius: 1.5"
                  material="color: #FFF; shader: flat"
                  light="color: #DDDDFF; distance: 120; intensity: 2; type: point">
         </a-mixin>
