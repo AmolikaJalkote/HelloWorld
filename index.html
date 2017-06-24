@@ -9,15 +9,12 @@
     <a-box color="gray" position="1 -1 0.5" rotation="0 45 0"></a-box>
     <a-sphere rotation="45 90 60" position="3 -1 0.5" color="red"></a-sphere>
     <a-sky color="black"></a-sky>
-    
     <a-assets>
-        <a-mixin id="light" geometry="primitive: box; radius: 1.5"
-                 material="color: white; shader: flat"
-                 light="color: #DDDDFF; distance: 120; intensity: 2; type: point">
-        </a-mixin>
-        <a-mixin id="torus-knot" geometry="primitive: torusKnot"
-                 material="color: white"></a-mixin>
+      <img id="cartoon" src="download.jpg"></img>
       </a-assets>
+   <a-entity geometry="primitive: box" material="color: red"
+          light="type: point; intensity: 2.0">
+   <a-plane src="#cartoon" position="2 2 0.5" ></a-plane>
     
   </a-scene>
 </body>
